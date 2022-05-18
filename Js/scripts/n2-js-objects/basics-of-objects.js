@@ -72,13 +72,89 @@
 //#
 
 
+//# 
+    function newUser1(name, age) {
+        return {
+        name: name,
+        age: age,
+        };
+    }let user4 = newUser1("Aren", 9);
+    alert(user4.name);
+
+    function newUser2(name, age) {
+        return {
+          name, // same as name: name
+          age,  // same as age: age
+        };
+    }let user5 = newUser2("Avin",11);
+    alert(user5.name);
+
+//#
+
+
+//# "key" in object
+    let user6 = { name: "Armita", age: 14 };
+    alert( "age" in user ); // true, user.age exists
+    alert( "blabla" in user ); // false, user.blabla doesn't exist
+//#
+
+
+//#  The “for…in” loop
+    let user7 = {
+        name: "Aryan",
+        age: 23,
+    };
+    
+    for (let key in user) {
+    // keys
+    alert( key );  // name, age
+    // values for the keys
+    alert( user[key] ); // Aryan, 23
+    }
+//#
+
+//# Object.assign(dest, [src1, src2, src3...])
+
+    let user = { name: "John" };
+
+    let permissions1 = { canView: true };
+    let permissions2 = { canEdit: true };
+
+    // copies all properties from permissions1 and permissions2 into user
+    Object.assign(user, permissions1, permissions2);
+
+    // now user = { name: "John", canView: true, canEdit: true }
+
+//#
+
+
+
+
+
 //#
 //#
 
 
+
+
+
+
+
 //#
 //#
 
 
+
+
+
+
+
 //#
 //#
+
+
+
+
+
+
+

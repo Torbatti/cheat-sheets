@@ -32,13 +32,19 @@ Z = Not Important For Now
         [Y]js-string-methods
 
 
-[]js-objects
+[Y]js-objects
+    [X]js-basics-of-objects
+    [X]js-object-methods
+    [Y]js-symbol-type
+    [Y]js-object-to-primitive-conversion
 
-[]js-data-types
 
-[]-js-advanced-functions
+[Y]js-classes
+    
 
-[]js-classes
+[Y]js-data-types
+
+[Y]-js-advanced-functions
 
 []js-error-handling
 
