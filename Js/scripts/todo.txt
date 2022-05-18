@@ -1,0 +1,56 @@
+X = Done
+Y = Todo
+Z = Not Important For Now
+
+[Y]js-setup
+    []browser
+    []ide
+    []vs-code-addons
+
+[]js-funds
+    [X]js-comments
+
+    [X]js-variables
+        [Y]js-var-the-old-way-of-variables
+    [Y]js-constants
+
+    [Z]js-basic-browser-interactions
+
+    [Z]js-operators
+    [Z]js-basic-data-types
+    [Z]js-type-conversions
+    [Z]js-Comparisons
+
+    [Y]js-control-flow
+
+    [Y]js-arrays
+        [Z]js-multi-dimensional-arrays
+
+    [Y]js-basics-of-functions
+    [Z]js-premade-functions
+        [Z]js-premade-Math-functions
+        [Y]js-string-methods
+
+
+[]js-objects
+
+[]js-data-types
+
+[]-js-advanced-functions
+
+[]js-classes
+
+[]js-error-handling
+
+[]js-test
+
+[]
+
+
+
+
+[]js-the-modern-way
+    [Y]where to put js script 
+    [Z]use strict
+
+
